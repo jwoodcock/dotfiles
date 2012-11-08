@@ -20,7 +20,7 @@ set viminfo=!,'100,\"100,:20,<50,s10,h,n~/.viminfo
 set showcmd         " display incomplete commands
 set showmode
 
-" set hlsearch        " highlight searches
+set hlsearch        " highlight searches
 set incsearch
 
 set softtabstop=4
@@ -105,7 +105,9 @@ if has("gui_running")
     colorscheme jellybeans
     "colorscheme ir_black
 else
-    colorscheme jellybeans
+     colorscheme vibrantink   " use this color scheme
+     colorscheme jellybeans
+    " colorscheme ir_black
     set guifont=DejaVu\ Sans\ Mono:h14.00  " use this font
     set background=dark   " adapt colors for background
 endif

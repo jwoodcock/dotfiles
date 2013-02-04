@@ -206,6 +206,7 @@ map <silent><C-left> <C-T>  " step out of a python function
 map <silent><C-right> <C-]> " follow a python function
 
 nnoremap <leader><space> :nohlsearch<cr>
+:inoremap ff <Esc> " mapping esc to jj
 
 " nnoremap <tab> %
 " vnoremap <tab> %
@@ -243,3 +244,7 @@ let g:syntastic_loc_list_height=3
 "    execfile(activate_this, dict(__file__=activate_this))
 "EOF
 
+" Syntastic Stuff
+let g:syntastic_enable_signs=1
+let g:syntastic_auto_loc_list=0
+let g:syntastic_loc_list_height=3

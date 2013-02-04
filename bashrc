@@ -4,6 +4,7 @@ export PROJECT_HOME=~/work
 source /usr/local/share/python/virtualenvwrapper.sh
 
 #prompt info
+#export PROMPT_COMMAND='echo -ne "\033]0;\"lizard king\"@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"'
 export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"'
 export COMMAND_MODE=unix2003
 export TM_PYCHECKER=pylint
@@ -32,3 +33,6 @@ export MY_BASEPROMPT='\e${MY_USER_COLOR}\u\
     \e${MY_GRAY_COLOR}$(__git_ps1)\e${MY_DEFAULT_COLOR}'
 export PS1="${MY_BASEPROMPT}
 $ "
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

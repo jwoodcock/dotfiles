@@ -36,3 +36,7 @@ $ "
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+### Alias 
+alias b2g="/Applications/B2G.app/Contents/MacOS/b2g-bin -profile ~/work/FirefoxOS/gaia/profile"
+alias b2g-debug="/Applications/B2G.app/Contents/MacOS/b2g-bin -jsconsole -profile ~/work/FirefoxOS/gaia/profile"

@@ -226,9 +226,9 @@ set completeopt=menuone,longest,preview
 
 set enc=utf-8
 set fileformats=unix,dos,mac
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=1
-let g:syntastic_loc_list_height=3
+"let g:syntastic_enable_signs=1
+"let g:syntastic_auto_loc_list=1
+"let g:syntastic_loc_list_height=3
 
 " set noerrorbells
 " set vb t_vb=
@@ -245,6 +245,6 @@ let g:syntastic_loc_list_height=3
 "EOF
 
 " Syntastic Stuff
-let g:syntastic_enable_signs=1
-let g:syntastic_auto_loc_list=0
-let g:syntastic_loc_list_height=3
+"let g:syntastic_enable_signs=1
+"let g:syntastic_auto_loc_list=0
+"let g:syntastic_loc_list_height=3

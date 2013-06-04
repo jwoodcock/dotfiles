@@ -1,11 +1,11 @@
-export PATH=/Users/Kite/pear/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python/:/usr/local/bin:${PATH}
+export PATH=$HOME/pear/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/bin:${PATH}
 export WORKON_HOME=~/.venvs
 export PROJECT_HOME=~/work
-source /usr/local/share/python/virtualenvwrapper.sh
+#source /usr/local/share/python/virtualenvwrapper.sh
 
 #prompt info
 #export PROMPT_COMMAND='echo -ne "\033]0;\"lizard king\"@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"'
-export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"'
+#export PROMPT_COMMAND='echo -ne "\033]0;${USER}@${HOSTNAME%%.*}: ${PWD/#$HOME/~}\007"'
 export COMMAND_MODE=unix2003
 export TM_PYCHECKER=pylint
 
@@ -34,9 +34,6 @@ export MY_BASEPROMPT='\e${MY_USER_COLOR}\u\
 export PS1="${MY_BASEPROMPT}
 $ "
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-### Alias 
-alias b2g="/Applications/B2G.app/Contents/MacOS/b2g-bin -profile ~/work/FirefoxOS/gaia/profile"
-alias b2g-debug="/Applications/B2G.app/Contents/MacOS/b2g-bin -jsconsole -profile ~/work/FirefoxOS/gaia/profile"
+### Alias
+alias eatbacon="ssh bacon"
+alias api="ssh api"

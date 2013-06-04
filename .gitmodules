@@ -9,10 +9,10 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "vimfolder/bundle/nerdcommenter"]
 	path = vimfolder/bundle/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
+    url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "vimfolder/bundle/syntastic"]
-	path = vimfolder/bundle/syntastic
-	url = https://github.com/scrooloose/syntastic.git
+    path = vimfolder/bundle/syntastic
+    url = https://github.com/scrooloose/syntastic.git
 [submodule "vimfolder/bundle/powerline"]
     path = vimfolder/bundle/powerline
     url = https://github.com/Lokaltog/vim-powerline.git

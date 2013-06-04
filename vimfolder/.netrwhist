@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/Kite/work/GlucoseTrack/alembic'
 let g:netrw_dirhist_2='/Users/Kite/dotfiles'
 let g:netrw_dirhist_3='/Users/Kite/work/gaia/profile/webapps/system.gaiamobile.org'
@@ -7,3 +7,5 @@ let g:netrw_dirhist_4='/Users/Kite/work/UXPortfolio/project'
 let g:netrw_dirhist_5='/Users/Kite/work/shelltest'
 let g:netrw_dirhist_6='/Users/Kite/work/virtphp/vendor/symfony/finder/Symfony/Component/Finder'
 let g:netrw_dirhist_7='/Users/Kite/work/ShoutPay'
+let g:netrw_dirhist_8='/Users/jwoodcock/dotfiles/.git'
+let g:netrw_dirhist_9='/Users/jwoodcock/work/Util.ApiVm/manifests'

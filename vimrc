@@ -14,6 +14,7 @@ set nocompatible
 set backspace=indent,eol,start
 set history=1000
 set scrolloff=3     " keep 3 lines when scrolling
+set t_Co=256
 
 set viminfo=!,'100,\"100,:20,<50,s10,h,n~/.viminfo
 
@@ -97,6 +98,7 @@ if has("gui_running")
     " set lines=50          " height = 50 lines
     " set columns=120       " width = 100 columns
     set background=dark   " adapt colors for background
+    set background=light
     " set transparency=5    " Barely transparent
     set guioptions-=T
     set list 

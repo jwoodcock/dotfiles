@@ -37,3 +37,4 @@ $ "
 ### Alias
 alias eatbacon="ssh bacon"
 alias api="ssh api"
+alias ll="ls -ila"

@@ -208,7 +208,7 @@ map <silent><C-left> <C-T>  " step out of a python function
 map <silent><C-right> <C-]> " follow a python function
 
 nnoremap <leader><space> :nohlsearch<cr>
-:inoremap ff <Esc> " mapping esc to jj
+:inoremap jj <Esc> " mapping esc to jj
 
 " nnoremap <tab> %
 " vnoremap <tab> %

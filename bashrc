@@ -1,4 +1,4 @@
-export PATH=$HOME/pear/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/share/python:/usr/local/bin:${PATH}
+export PATH=$HOME/pear/bin:/usr/local/Cellar/python/2.7.3/bin:/usr/local/bin:${PATH}
 export WORKON_HOME=~/.venvs
 export PROJECT_HOME=~/work
 #source /usr/local/share/python/virtualenvwrapper.sh
